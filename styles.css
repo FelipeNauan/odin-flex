@@ -1,0 +1,173 @@
+
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin: 0;
+}
+
+/*------------ Header ------------*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+    margin: 0 10%;
+}
+
+.logo{
+    height: 3rem;
+    width: 20%;
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    margin: 0  0 0 30px;
+    list-style: none;
+}
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/*------------ Apresentacao ------------*/
+
+.apresentacao{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 10%;
+}
+
+.apresentacao h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.apresentacao p{
+    font-size: 24px;
+    color: #e5e7eb;
+    padding-right: 30px;
+}
+.foto_lua{
+    width: 450px;
+}
+
+/*------------ Botao ------------*/
+.botao_1{
+    padding: 10px;
+    border: none;
+    border: 1px solid #3882f6;
+    border-radius: 7px;
+    background-color: #3882f6;
+    cursor: pointer;
+    color: #f9faf8;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.botao_1:hover{
+    border: 1px solid #f9faf8;
+}
+
+
+
+/*------------ Fases ------------*/
+.titulo_fases{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2937;
+}
+
+.section_fases{
+    background-color: #f9faf8;
+    padding: 30px 0;
+}
+.div_fases{
+    display: flex;
+    justify-content: center;
+
+}
+
+.foto_fases{
+    border: 2px solid #3882f6;
+    border-radius: 10px;                                                   px;
+    height: 150px;
+    width: 150px ;
+}
+
+.legenda_foto_fases{
+    color: #1f2937;
+    text-align: center;
+}
+
+/*------------ Frase ------------*/
+
+    .section_frase{
+        background-color: #e5e7eb;
+        padding: 50px 10%;
+
+    }
+
+    .frase{
+        font-size: 36px;
+        color: #1f2937;
+        font-style: italic;
+        font-weight:lighter;
+        text-align: center;
+    }
+
+    .autor{
+        color: #1f2937;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: end;
+    }
+/*------------ Informativo ------------*/
+    .section_informativo{
+        background-color: #f9faf8;
+        padding: 5% 0;  
+    }
+
+    .div_informativo{
+        margin: 0 10%;
+        background-color: #3882f6;
+        border-radius: 10px;
+        display:  flex;
+        justify-content: space-between;
+        padding: 20px 10%;
+        align-items: center;
+    }
+
+    .botao_2{
+        padding: 10px;
+        border: none;
+        border: 2px solid #f9faf8;
+        border-radius: 7px;
+        background-color: #3882f6;
+        cursor: pointer;
+        color: #f9faf8;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 26px;
+    }
+
+    .botao_2:hover{
+        background-color: #f9faf8;
+        color: #3882f6;
+    }
+/*------------ Footer ------------*/
+footer{
+    padding: 20px 0;
+    text-align: center;
+}
